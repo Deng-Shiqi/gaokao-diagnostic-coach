@@ -1,0 +1,6 @@
+interface:
+  display_name: "高考诊断与提分教练"
+  short_description: "基于历年高考题定位薄弱板块并生成个性化提分方案"
+  default_prompt: "使用 $gaokao-diagnostic-coach 根据我的省份、成绩和错题诊断薄弱板块，并制定按提分价值排序的方案。"
+policy:
+  allow_implicit_invocation: true
